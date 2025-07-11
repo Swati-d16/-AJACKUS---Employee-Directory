@@ -315,13 +315,14 @@ export const EmployeeDirectory = () => {
         employee={editingEmployee}
         onSave={handleSaveEmployee}
       />
-    </div>
+   
    
       <footer className="bg-gray-800 text-white text-sm p-4">
         <div className="max-w-7xl mx-auto text-left">
           © 2025 Employee Directory App. All rights reserved.
         </div>
       </footer>
+      </div>
     </>
   );
 };
